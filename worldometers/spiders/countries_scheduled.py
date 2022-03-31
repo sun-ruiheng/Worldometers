@@ -1,15 +1,3 @@
-'''
-NOTE
-This is kind of a dummy project to test scheduling of Scrapy Spiders using its CrawlerRunner .addCallback() method.
-I attempt to document steps meticulously.
-I understand that there are currently some logical gaps, in the sense that it is prone to getting errors.
-For example, the schedule_next_crawl_today could receive instructions to run in at a time earlier than current time.
-
-^ ACTUALLY JUST IMPLEMENT AN ERROR CATCHER FOR THIS!
-'''
-
-
-
 # IMPORTS
 
 # get_project_settings() retrieves all the settings from metadata of a project
